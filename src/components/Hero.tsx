@@ -15,13 +15,13 @@ const Hero = () => {
         </div>
         <div className="w-2/3 pl-12">
           <h1 className="text-3xl font-bold">
-            {language === "en" ? "John Doe" : "Иван Иванов"}
+            {language === "en" ? "Abramov Daniil" : "Абрамов Даниил"}
           </h1>
           <p className="mt-2 text-lg">
-            {language === "en" ? "Age: 30 years" : "Возраст: 30 лет"}
+            {language === "en" ? "Age: 18 years" : "Возраст: 18 лет"}
           </p>
           <p className="mt-2 text-lg">
-            {language === "en" ? "City: New York" : "Город: Москва"}
+            {language === "en" ? "City: Moscow" : "Город: Москва"}
           </p>
           <p className="mt-4">
             {language === "en"
